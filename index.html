@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/logo1.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Bravissimo Studio</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+
+<!-- //header// -->
+
+<header class="header">
+    <div class="header_wrapper-1">
+        <div class="header_contacts">
+            <a class="header_contacts-num1" href="tel:+380949251358">+380949251358</a>
+            <a class="header_contacts-num2" href="mailto:studiobravissimo@ukr.net">studiobravissimo@ukr.net</a>
+        </div>
+        <div class="header_menu-wrapper wrapper">
+            <nav class="header_menu-mobile" style="display: none">
+                <ul class="header_menumobile-wrpapper">
+                    <li><a href="programs.html">Программы</a></li>
+                    <li><a href="about-us.html">о нас</a></li>
+                    <li><a href="contacts.html">контакты</a></li>
+                    <li><a href="library.html">библиотека</a></li>
+                    <li>
+                        <div class="phantom"></div>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="header_menu-desktop">
+                <ul class="header_menu">
+                    <li class="header_menu-element"><a href="programs.html">
+                        <span class="header_menu-link">Программы</span>
+                    </a></li>
+                    <li class="header_menu-element"><a href="about-us.html">
+                        <span class="header_menu-link">О нас</span>
+                    </a></li>
+                    <li class="header_logo-allways">
+                        <a class="header_logo-wrapper" href="index.html"><img class="header_logo" src="img/logo-1.png"></a>
+                    </li>
+                    <li class="header_menu-element"><a href="contacts.html">
+                        <span class="header_menu-link">контакты</span>
+                    </a></li>
+                    <li class="header_menu-element"><a href="library.html">
+                        <span class="header_menu-link">Библиотека</span>
+                    </a></li>
+                    <li class="header_menumobile-only">
+                        <div class="hamburger-icon" id="button_menu">
+                            <button class="hamburger-icon-btn">
+                                <span class="span_hamburger"></span>
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<!-- //end of header// -->
+
+<!-- //italian picture// -->
+
+<section class="bg_wrapper margin-bottom">
+    <div class="section_first-img">
+        <h1 class="section1_italy">Школа итальянского языка</h1>
+        <button class="button popup">записаться</button>
+    </div>
+    <!-- MODAL WINDOW -->
+    <div class="modal_wrap" id="modal_form">
+    <form>
+        <span id="modal_close"><img src="img/test-wrong.svg"></span>
+        <input class="name" type="text" name="Имя" placeholder="Имя" >
+        <input class="tel" type="tel" name="tel" placeholder="Телефон" required>
+        <input class="email" type="email" name="email" placeholder="E-mail">
+        <textarea type="text" name="comment" placeholder="Ваши комментарии"></textarea>
+        <input class="modal_submit" type="submit" value="Записаться">
+    </form>
+    <!-- END OF MODAL WINDOW -->
+    <!-- THANKYOU WINDOW -->
+    <div class="thankyou modal_hidden">
+<!--         <span class="thankyou_close" "><img src="img/test-wrong.svg"></span> -->
+        <h2>Спасибо!</h2>
+        <p class="thankyou_p">Ваша заявка приянта.</p>
+        <p class="thankyou_p">Мы с Вами свяжемся в ближайшее время!</p>
+        <button class="thankyou_btn" name="button" value="OK" type="button">OK</button>
+    </div>
+    </div>
+    <div id="overlay"></div>
+    <!-- END OF THANKYOU WINDOW -->
+
+</section>
+
+<!-- //end of italian picture// -->
+<!-- //test & skype// -->
+
+<section class="wrapper margin-bottom">
+    <div class="tech_wrapper">
+        <a href="test.html" class="tech">
+            <img class="tech_img" src="img/writing.svg">
+            <p class="tech_button">Пройти тест</p>
+
+        </a>
+        <a href="skype_lessons.html" class="tech">
+            <img class="tech_img" src="img/video-chat.svg">
+            <p class="tech_text">Уроки по скайпу</p>
+
+        </a>
+    </div>
+</section>
+
+<!-- //end of test & skype// -->
+<!-- //programs section// -->
+
+<section class="wrapper margin-bottom">
+    <h2 class="programs_h2">Программы</h2>
+    <div class="programs_wrapper">
+
+        <a class="program-single" href="programs.html#programs_a1">
+            <img class="program-single_img" src="img/prog_single_01.jpg">
+            <div class="program-single_about">
+                <div class="program-single_circle">A1</div>
+                <h3 class="program-single_h3">1-й Уровень</h3>
+                <h4 class="program-single_price">3 000 грн.</h4>
+                <p class="program-single_desc">Начальный уровень итальянского языка, первый семестр уровня А</p>
+                <span class="program-single_time">2,5 месяца (40 часов)</span>
+            </div>
+        </a>
+
+        <a class="program-single" href="programs.html#programs_a2">
+            <img class="program-single_img" src="img/prog_single_02.jpg">
+            <div class="program-single_about">
+                <div class="program-single_circle">A2</div>
+                <h3 class="program-single_h3">2-й Уровень</h3>
+                <h4 class="program-single_price">3 000 грн.</h4>
+                <p class="program-single_desc">Начальный уровень итальянского языка, второй семестр уровня А</p>
+                <span class="program-single_time">2,5 месяца (40 часов)</span>
+            </div>
+        </a>
+
+        <a class="program-single" href="programs.html#programs_b1">
+            <img class="program-single_img" src="img/prog_single_03.jpg">
+            <div class="program-single_about">
+                <div class="program-single_circle">B1</div>
+                <h3 class="program-single_h3">3-й Уровень</h3>
+                <h4 class="program-single_price">3 000 грн.</h4>
+                <p class="program-single_desc">Средний уровень итальянского языка, первый семестр уровня В</p>
+                <span class="program-single_time">2,5 месяца (40 часов)</span>
+            </div>
+        </a>
+
+        <a class="program-single" href="programs.html#programs_b2">
+            <img class="program-single_img" src="img/prog_single_04.png">
+            <div class="program-single_about">
+                <div class="program-single_circle">B2</div>
+                <h3 class="program-single_h3">4-й Уровень</h3>
+                <h4 class="program-single_price">3 000 грн.</h4>
+                <p class="program-single_desc">Средний уровень итальянского языка, второй семестр уровня В</p>
+                <span class="program-single_time">2,5 месяца (40 часов)</span>
+            </div>
+        </a>
+
+        <a class="program-single" href="programs.html#programs_b2c1">
+            <img class="program-single_img" src="img/prog_single_05.png">
+            <div class="program-single_about">
+                <div class="program-single_circle_small">B2C1</div>
+                <h3 class="program-single_h3">Уровень &#171;B2C1&#187;</h3>
+                <h4 class="program-single_price">1 200 грн.</h4>
+                <p class="program-single_desc">Свободное владение итальянским языком</p>
+                <span class="program-single_time">2,5 месяца (40 часов)</span>
+            </div>
+        </a>
+
+        <a class="program-single" href="programs.html#programs_business">
+            <img class="program-single_img" src="img/prog_single_06.png">
+            <div class="program-single_about">
+                <div class="program-single_circle">BC</div>
+                <h3 class="program-single_h3">Бизнес курс</h3>
+                <h4 class="program-single_price">1 200 грн.</h4>
+                <p class="program-single_desc">Курс специфической лексики для деловой переписки</p>
+                <span class="program-single_time">2,5 месяца (40 часов)</span>
+            </div>
+        </a>
+    </div>
+    </section>
+
+<!-- //end of programs section// -->
+<!-- //section flags// -->
+
+<section class="margin-bottom">
+    <div class="section_wrapper-flag">
+        <h2>Итальяно говорящие страны</h2>
+        <div class="wrapper">
+            <div class="flags_wrapper">
+                <div class="flag_wrpapper">
+                    <img class="section-flag" src="img/italy.svg">
+                    <span>Италия</span>
+
+                </div>
+                <div class="flag_wrpapper">
+                    <img class="section-flag" src="img/vatican-city.svg">
+                    <span>Ватикан</span>
+
+                </div>
+                <div class="flag_wrpapper">
+                    <img class="section-flag" src="img/san-marino.svg">
+                    <span>Сан-Марино</span>
+
+                </div>
+                <div class="flag_wrpapper">
+                    <img class="section-flag" src="img/switzerland.svg">
+                    <span>Швейцария</span>
+
+                </div>
+                <div class="flag_wrpapper">
+                    <img class="section-flag" src="img/slovenia.svg">
+                    <span>Словения</span>
+
+                </div>
+                <div class="flag_wrpapper">
+                    <img class="section-flag" src="img/croatia.svg">
+                    <span>Хорватия</span>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- //end of section flags// -->
+
+<!-- //learning section// -->
+<section>
+        <h2 class="learning_h2">Изучать итальянский...</h2>
+
+        <div class="learning_wrapper-big_right">
+            <div class="learning_wrapper-small_01">
+                <div class="learning_text_left">
+                <h3 class="learning_h3">...легко</h3>
+                <p>Каждый язык по-своему сложен. Если у вас есть определенные наклонности к изучению какого-то иностранного языка, значит, вам здорово повезло, а если нет, то вам придется приложить немало усердия для того, чтобы выучить язык, хотя бы на среднем уровне. Не бывает легких языков, которые легко подаются усвоению, у каждого есть свои сложности. В этой статье рассмотрим те сложности, с которыми вам придется столкнуться, если вы собрались учить итальянский язык. Ваши успехи зависят от ваших способностей, с ними или без них, вам в любом случае придется много над этим работать.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="learning_wrapper-big_left">
+            <div class="learning_wrapper-small_02">
+                <div class="learning_text_right">
+                    <h3 class="learning_h3">...сложно</h3>
+                    <p>Произношение и интонация сильно отличается от русского языка. Звуки необходимо выговорить по-особенному и над этим придется много работать. Произносить слова, так как это делают итальянцы, станет возможно только после долгой тренировки.</p>
+                    <p>Грамматическая сложность в применение артикля и его форм. Для этих сложностей есть две причины: в русском языке нет артикля, для того чтобы можно было учить его применение путем ассоциаций. Вторая причина основана на том, что итальянский язык не обладает четкими правилами применения артикля, и есть много исключений от правил.</p>
+                    <p>Применение предлогов вызывает затруднения, так как некоторые конструкции не вписываются в общепринятые рамки.</p>
+                    <p>Глагол это основная проблема всех тех, кто берутся за изучение данного языка. Времен глагола много, намного больше, чем в русском языке, в этом собственно и заключается основная проблема – разобраться с формированием времен и с их применением. Трудно будет разбираться наклонениями, а формирование сложных времен относительно легко усвоить, так как формируются они по одному и тому же принципу.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- //end of learning section// -->
+<!-- //italian for// -->
+
+<section class="wrapper margin-bottom">
+    <div class="italian_wraper">
+
+
+    <div class="italian_container">
+
+            <div class="italian-for">
+                <h2 class="italian_p">Итальянский для...</h2>
+                    <div class="italian-logs">
+
+                            <div class="italian_logo">
+                                <img class="italian_logo-single" src="img/family.svg" alt="family">
+                                <p class="italian_icon-text">Семьи</p>
+                            </div>
+
+
+                            <div class="italian_logo">
+                                <img class="italian_logo-single" src="img/money.svg" alt="business">
+                                <p class="italian_icon-text">Бизнеса</p>
+                            </div>
+
+                            <div class="italian_logo">
+                                <img class="italian_logo-single" src="img/college-graduation.svg" alt="exam">
+                                <p class="italian_icon-text">Образования</p>
+                            </div>
+                            <div class="italian_logo">
+                                <img class="italian_logo-single" src="img/airplane.svg" alt="travel">
+                                <p class="italian_icon-text">Путешествий</p>
+                            </div>
+                            <div class="italian_logo">
+                                <img class="italian_logo-single" src="img/heart (1).svg" alt="relocation">
+                                <p class="italian_icon-text">Любви</p>
+                            </div>
+                            <div class="italian_logo">
+                                <img class="italian_logo-single" src="img/roman-coliseum.svg" alt="professionals">
+                                <p class="italian_icon-text">Культуры</p>
+                            </div>
+                    </div>  
+            </div>
+    
+    </div>
+</div>
+</section>
+
+<!-- //end of italian for// -->
+<!-- //education types// -->
+
+<section class="education-types wrapper">
+    <h2 class="education-types-title">Мы предлагаем</h2>
+    <div class="education-types-container">
+        <div class="education-types_flex">
+            <div class="education-type_single">
+                <div class="education-type-bg">
+                    <img src="img/group.jpg" alt="Групповые занятия">
+                </div>
+                <h3 class="education-type-title">Занятия в группе</h3>
+                <h4 class="education-type-price">3000 грн.</h4>
+                <p class="education-type-duration">2,5 месяца (60 часов) </p>
+                <ul class="education-type-benefits">
+                    <li>2 занятия в неделю</li>
+                    <li>урок длится 135 минут (90 минут с русскоязычным педагогом и 45 минут с носителем языка)</li>
+                    <li>небольшие группы до 7 человек</li>
+                    
+                </ul>
+            </div>
+            <div class="education-type_single">
+                <div class="education-type-bg">
+                    <img src="img/indiv.jpg" alt="Индивидульаные занятия">
+                </div>
+                <h3 class="education-type-title">Индивидуальные занятия</h3>
+                <h4 class="education-type-price">от 3000 грн.</h4>
+                <p class="education-type-duration">5 занятий (10 часов) </p>
+                <ul class="education-type-benefits">
+                    <li>от 2 до 6 часов в день</li>
+                    <li>занятия с носителем языка</li>
+                    <li>занятия с русскоязычным педагогом</li>
+                    <li>индивидуальный подход</li>
+                    <li>эффективное обучение в краткие сроки</li>
+                </ul>
+            </div>
+    </div>
+    <div class="education-types_flex">
+            <div class="education-type_single">
+                <div class="education-type-bg">
+                    <img src="img/corp.jpg" alt="Корпоративные занятия">
+                </div>
+                <h3 class="education-type-title">Корпоративное обучение</h3>
+                <h4 class="education-type-price">цена договорная</h4>
+                <p class="education-type-duration">от 1 месяца</p>
+                <ul class="education-type-benefits">
+                    <li>широкий выбор учебных программ</li>
+                    <li>разработка курса с учётом специфики и сферы деятельности компании</li>
+                    <li>возможноть обучения в своём офисе</li>
+                    <li>бесплатное тестирование перед началом курса</li>
+                    <li>гибкая система скидок</li>
+                </ul>
+            </div>
+            <div class="education-type_single">
+                <div class="education-type-bg">
+                    <img src="img/child.jpg" alt="Детские занятия">
+                </div>
+                <h3 class="education-type-title">Итальянский для детей</h3>
+                <h4 class="education-type-price">от 1200 грн.</h4>
+                <p class="education-type-duration">1 месяц</p>
+                <ul class="education-type-benefits">
+                    <li>инновационная программа изучения нескольких иностранных языков одновременно</li>
+                    <li>пробный урок бесплатно</li>
+                    <li>занятия в мини-группе и индивидуально</li>
+                    <li>возможность обучения на дому</li>
+                    <li>игровой подход, который нравится детям</li>
+                </ul>
+            </div>
+    </div>
+</section>
+
+<!-- //end of education types// -->
+<!-- //beautiful picture at bottom// -->
+
+<section class="bg_wrapper">
+    <div class="sectionlust">
+        <h3 class="sectionlust_text">Готов учить итальянский?</h3>
+        <button class="sectionlust_button popup">записаться</button>
+    </div>
+</section>
+
+<!-- //end of beautiful picture at bottom// -->
+<!-- //footer// -->
+
+<footer class="wraper">
+    <div class="footer_content wrapper">
+            <div class="footer_icons-wraper">
+                <a href="https://www.facebook.com/studiobravissimo/" target="blank" class="footer_facebook-icons"></a>
+                <a href="https://www.instagram.com/studiobravissimo/" target="_blank" class="footer_instagram-icons"></a>
+            </div>
+            <div class="footer_contacts">
+                <div class="footer_wraper-contacts">
+                        <p><a href="tel:+380949251358" class="footer_phone-number">+380949251358</a></p>
+                        <p><a href="tel:+380443604358" class="footer_phone-number">+380443604358</a></p>
+                        <p><a href="mailto:studiobravissimo@ukr.net" class="footer_email">studiobravissimo@ukr.net</a></p>
+                        <p><a href="contacts.html" class="footer_addres">Подол, м. Контрактовая площадь</a></p>
+                    </div>
+                </div>
+                <div class="footer_logo">
+                    <a href="index.html"><img src="img/logo-1.png" alt="Bravissimo Studio" class="footer_links-logo"></a>
+                </div>
+            </div>
+            <p class="footer_copywrite">© 2012 - 2017. Studio Bravissimo. Курсы итальянского языка в Киеве.</p>
+</footer>
+
+<!-- //end of footer// -->
+
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Тест</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="img/logo1.png" type="image/x-icon">
+</head>
+<body>
+
+<!-- //header// -->
+
+<header class="header">
+    <div class="header_wrapper-1">
+        <div class="header_contacts">
+            <a class="header_contacts-num1" href="tel:+380949251358">+380949251358</a>
+            <a class="header_contacts-num2" href="mailto:studiobravissimo@ukr.net">studiobravissimo@ukr.net</a>
+        </div>
+        <div class="header_menu-wrapper wrapper">
+            <nav class="header_menu-mobile" style="display: none">
+                <ul class="header_menumobile-wrpapper">
+                    <li><a href="programs.html">Программы</a></li>
+                    <li><a href="about-us.html">о нас</a></li>
+                    <li><a href="contacts.html">контакты</a></li>
+                    <li><a href="library.html">библиотека</a></li>
+                    <li>
+                        <div class="phantom"></div>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="header_menu-desktop">
+                <ul class="header_menu">
+                    <li class="header_menu-element"><a href="programs.html">
+                        <span class="header_menu-link">Программы</span>
+                    </a></li>
+                    <li class="header_menu-element"><a href="about-us.html">
+                        <span class="header_menu-link">О нас</span>
+                    </a></li>
+                    <li class="header_logo-allways">
+                        <a class="header_logo-wrapper" href="index.html"><img class="header_logo" src="img/logo-1.png"></a>
+                    </li>
+                    <li class="header_menu-element"><a href="contacts.html">
+                        <span class="header_menu-link">контакты</span>
+                    </a></li>
+                    <li class="header_menu-element"><a href="library.html">
+                        <span class="header_menu-link">Библиотека</span>
+                    </a></li>
+                    <li class="header_menumobile-only">
+                        <div class="hamburger-icon" id="button_menu">
+                            <button class="hamburger-icon-btn">
+                                <span class="span_hamburger"></span>
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<!-- //end of header// -->
+<!-- //test// -->
+
+<section class="test-page wrapper margin-bottom">
+    <h1 class="test-page_title">Пройти тест</h1>
+    <form id="quizForm" class="test-page_form">
+        <h3 id="questionTitle" class="test-page_form-title">
+            Узнайте уровень своего итальянского
+        </h3>
+        <p id="questionDefinition" class="test-page_form_question-title"></p>
+        <p id="questionText" class="test-page_form-question"></p>
+        <p id="questionOptions" class="test-page_form-description">
+            Этот тест по итальянскому языку состоит из 30 вопросов с несколькими вариантами ответов. На прохождение
+            теста вам понадобится около 20 минут. Вы найдёте правильные ответы по завершению теста. Удачи!
+        </p>
+
+        <div id="questionButton">
+            <input id="buttonStart" class="test-page_form-button" name="buttonStart"
+                   onclick="return buttonStart_onclick()" type="button" value="Начать"/>
+        </div>
+
+    </form>
+
+</section>
+
+<!-- //end of test// -->
+<!-- //footer// -->
+
+<footer class="wraper">
+    <div class="footer_content wrapper">
+            <div class="footer_icons-wraper">
+                <a href="https://www.facebook.com/studiobravissimo/" target="blank" class="footer_facebook-icons"></a>
+                <a href="https://www.instagram.com/studiobravissimo/" target="_blank" class="footer_instagram-icons"></a>
+            </div>
+            <div class="footer_contacts">
+                <div class="footer_wraper-contacts">
+                        <p><a href="tel:+380949251358" class="footer_phone-number">+380949251358</a></p>
+                        <p><a href="tel:+380443604358" class="footer_phone-number">+380443604358</a></p>
+                        <p><a href="mailto:studiobravissimo@ukr.net" class="footer_email">studiobravissimo@ukr.net</a></p>
+                        <p><a href="contacts.html" class="footer_addres">Подол, м. Контрактовая площадь</a></p>
+                    </div>
+                </div>
+                <div class="footer_logo">
+                    <a href="index.html"><img src="img/logo-1.png" alt="Bravissimo Studio" class="footer_links-logo"></a>
+                </div>
+            </div>
+            <p class="footer_copywrite">© 2012 - 2017. Studio Bravissimo. Курсы итальянского языка в Киеве.</p>
+</footer>
+
+<!-- //end of footer// -->
+
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/test.js"></script>
+</body>
+</html>
