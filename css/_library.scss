@@ -1,6 +1,6 @@
 
 .library {
-  display: flex;
+  @include flex;
   justify-content: space-around;
   flex-wrap:wrap ;
 }
@@ -10,7 +10,7 @@
   box-sizing: border-box;
   border: 1px solid $silver;
   width: 300px;
-  display: flex;
+  @include flex;
   flex-direction: column;
   align-items: center;
   text-align: left;
@@ -34,7 +34,7 @@
 .library_img{
   width: 190px;
   min-height: 250px;
-  display: flex;
+  @include flex;
   align-items: center;
 }
 .library_img_img{

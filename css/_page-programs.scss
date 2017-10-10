@@ -76,7 +76,7 @@
 }
 
 .programs_timetable {
-	display: flex;
+	@include flex;
 	flex-deirection: row;
 	align-items: center;
 	justify-content: space-between;

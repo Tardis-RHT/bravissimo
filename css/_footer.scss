@@ -6,7 +6,7 @@
 
 .footer_content {
 	box-sizing: border-box;
-    display: flex;
+    @include flex;
     flex-wrap: wrap;
     justify-content: space-between;
 	text-align: center;
@@ -27,7 +27,7 @@
 	}
 }
 .footer_icons-wraper{
-	display: flex;
+	@include flex;
 	justify-content: flex-end;
 	width: 150px;
 }
@@ -82,13 +82,13 @@
 }
 @media screen and (max-width: 768px) {
  .footer_content{
-   display: flex;
+   @include flex;
    flex-direction: column-reverse;
   }
 }
 @media screen and (max-width: 768px) {
  .footer_icons-wraper{
-   display: flex;
+   @include flex;
    justify-content: center;
    margin: 0 auto;
 
@@ -97,7 +97,7 @@
 
 .italian_wraper {
 	background-image: url("../img/body-bg.png");
-	display: flex;
+	@include flex;
 	justify-content: space-between;
 	flex-direction: column;
 	text-align: center;
@@ -112,7 +112,7 @@
 	border-radius: 50%;
 }
 .italian-logs{
-    display: flex;
+    @include flex;
     justify-content: space-around;
     flex-wrap: wrap;
     text-align: center;

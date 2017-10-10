@@ -5,7 +5,7 @@
 	padding-bottom: 50px;
 }
 .skype-lessons_description-container{
-	display: flex;
+	@include flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	@media (min-width: 1070px){
@@ -47,7 +47,7 @@
 }
 
 .skype-lessons_main-info{
-	display: flex;
+	@include flex;
 	justify-content: space-between;
 	padding-top: 20px;
 	width: 280px;

@@ -3,7 +3,7 @@
 }
 
 .section_first-img{
-  display: flex;
+  @include flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -73,7 +73,7 @@
 }
 
 .sectionlust{
-  display: flex;
+  @include flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -111,7 +111,7 @@
 }
 
 .tech_wrapper{
-  display: flex;
+  @include flex;
   justify-content: space-around;
   margin-top: -100px;
   .tech{

@@ -3,14 +3,14 @@
 	margin: 56px auto;
 }
 .education-types-container{
-	display: flex;
+	@include flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	padding-top: 115px;
 }
 .education-types_flex{
 	flex-wrap: wrap;
-	display: flex;
+	@include flex;
 	justify-content: space-around;
 	@media(min-width: 700px){
 		width: 100%;
