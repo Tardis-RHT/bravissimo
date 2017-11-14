@@ -1,12 +1,11 @@
 //for hamburger menu
 
 $('#button_menu').click(function(){
-    $('.header_menu-mobile').slideToggle();
+    $('.header_menu').slideToggle();
     $('.span_hamburger').toggleClass('active');
 })
 
 //for diminishing header when scrolling
-
 $(window).scroll(function(){
     $('.header_wrapper-1').toggleClass('scroll', $(this).scrollTop() > 0);
 });
